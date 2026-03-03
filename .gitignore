@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Environment variables
+.env
+
+# Log files
+uvicorn.log
+
+# Documentation
+managed_identity_setup.md
