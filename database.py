@@ -6,7 +6,7 @@ import struct
 
 server = "tomas-test-sqlserver.database.windows.net"
 database = "tomas-test-sqldb"
-driver = "SQL Server"
+driver = "ODBC Driver 17 for SQL Server"
 connection_string = f"DRIVER={{{driver}}};SERVER={server};DATABASE={database};Authentication=ActiveDirectoryMsi"
 
 credential = DefaultAzureCredential(exclude_interactive_browser_credential=False)
